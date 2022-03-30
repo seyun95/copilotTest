@@ -1,3 +1,5 @@
+# copilot 이용한 코딩하기 - 메모리 사용량 구하기
+
 # get current memeory usage of the process
 def get_memory_usage():
     import resource
@@ -10,7 +12,6 @@ def convert_bytes(num):
             return "%3.1f %s" % (num, x)
         num /= 1024.0
     return "%3.1f %s" % (num, 'TB')
-# copilot 이용한 코딩하기
 
 # get the current memory usage of system in human readable format
 def get_system_memory_usage():
